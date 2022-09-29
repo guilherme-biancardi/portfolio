@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Vuex",
+    "description": {
+      "text": "Gerenciador de Estado"
+    },
+    "icon": "mdi-database"
+  },
+  {
+    "title": "Pinia",
+    "description": {
+      "text": "Gerenciador de Estado"
+    },
+    "icon": "mdi-database"
+  },
+  {
+    "title": "Vue-Router",
+    "description": {
+      "text": "Gerenciador de Rotas"
+    },
+    "icon": "mdi-routes"
+  }
+]

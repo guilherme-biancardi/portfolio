@@ -1,0 +1,50 @@
+[
+  {
+    "title": "JavaScript",
+    "description": {
+      "title": "Experiência:",
+      "text": "4 anos"
+    },
+    "icon": "mdi-language-javascript"
+  },
+  {
+    "title": "HTML",
+    "description": {
+      "title": "Experiência:",
+      "text": "4 anos"
+    },
+    "icon": "mdi-language-html5"
+  },
+  {
+    "title": "CSS",
+    "description": {
+      "title": "Experiência:",
+      "text": "4 anos"
+    },
+    "icon": "mdi-language-css3"
+  },
+  {
+    "title": "Vue.js",
+    "description": {
+      "title": "Experiência:",
+      "text": "2 anos"
+    },
+    "icon": "mdi-vuejs"
+  },
+  {
+    "title": "Java",
+    "description": {
+      "title": "Experiência:",
+      "text": "1 ano"
+    },
+    "icon": "mdi-language-java"
+  },
+  {
+    "title": "Node JS",
+    "icon": "mdi-nodejs",
+    "description": {
+      "title": "Experiência:",
+      "text": "cursando"
+    }
+  }
+]

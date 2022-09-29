@@ -1,0 +1,23 @@
+[
+  {
+    "name": "gerador de animais",
+    "text": "Gerador aleatório de animais, contendo informações como comprimento, habitat, nome cientifico e etc.  Feito em Vue e utilizando a Zoo Animal API.",
+    "link": "https://random-animal-generator.netlify.app",
+    "image": "animals-generator.png",
+    "repository": "https://github.com/guilherme-biancardi/random-animal-generator"
+  },
+  {
+    "name": "Relógio de 7 Segmentos",
+    "text": "Relógio de display 7 segmentos, feito em Vue, com data e personalização de cores.",
+    "link": "https://watch-7-segments.netlify.app",
+    "image": "watch-segments.png",
+    "repository": "https://github.com/guilherme-biancardi/watch-seven-segment"
+  },
+  {
+    "name": "Estatísticas de Formula 1",
+    "text": "Projeto de estatísticas de formula 1 feito em Vue, com tabela do campeonato de pilotos e construtores, gráfico de desempenho e resultados das corridas.",
+    "link": "https://formula-one-stats.netlify.app",
+    "image": "formula-one-stats.png",
+    "repository": "https://github.com/guilherme-biancardi/formula-races"
+  }
+]

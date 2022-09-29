@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Git",
+    "description": {
+      "text": "Versionamento de código"
+    },
+    "icon": "mdi-git"
+  },
+  {
+    "title": "API",
+    "icon": "mdi-api",
+    "description": {
+      "text": "Consumo de APIs"
+    }
+  },
+  {
+    "title": "POO",
+    "icon": "mdi-code-braces",
+    "description": {
+      "text": "Orientação a objetos"
+    }
+  }
+]
