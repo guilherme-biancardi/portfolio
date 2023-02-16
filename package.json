@@ -11,6 +11,7 @@
   "dependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
     "@mdi/js": "^7.1.96",
+    "@rollup/plugin-dynamic-import-vars": "^2.0.3",
     "luxon": "^3.2.1",
     "pinia": "^2.0.28",
     "vue": "^3.2.45",
