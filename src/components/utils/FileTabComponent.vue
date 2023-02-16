@@ -50,15 +50,16 @@ const type = computed(() => state.fileTypes[props.fileType]);
 .file-tab-content {
   width: max-content;
   display: flex;
+  justify-content: center;
   align-items: center;
   column-gap: 12px;
-  padding: 8px 16px;
+  padding: 8px 20px;
   border-bottom: 1px solid transparent;
   cursor: pointer;
   background-color: transparent;
   font-size: 1em;
   transition: all .1s ease;
-  min-width: 170px;
+  min-width: 140px;
 }
 
 .file-tab-content:hover{

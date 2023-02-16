@@ -6,5 +6,6 @@ const getNow = () => DateTime.now()
 
 export const useDateTime = () => ({
     getDate,
-    getNow
+    getNow, 
+    datetime: DateTime
 })

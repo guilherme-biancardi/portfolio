@@ -21,27 +21,35 @@
 <script setup>
 import IconComponent from "./utils/IconComponent.vue";
 import { mdiAccount, mdiFileCertificate, mdiTools } from "@mdi/js";
-import { reactive } from "vue";
+import { reactive, computed, onMounted } from "vue";
+import { useAppStore } from "../stores/appStore";
+
+const { getLanguageFile } = useAppStore();
+const lang = computed(() => getLanguageFile.menu);
 
 const state = reactive({
   menuItems: [
     {
       route: "/about-me",
       icon: mdiAccount,
-      label: "sobre mim",
+      label: "",
     },
     {
       route: "/skills",
       icon: mdiFileCertificate,
-      label: "competências",
+      label: "",
     },
     {
       route: "/projects",
       icon: mdiTools,
-      label: "projetos",
+      label: "",
       size: 28,
     },
   ],
+});
+
+onMounted(() => {
+  state.menuItems.forEach((item, index) => (item.label = lang.value.at(index)));
 });
 </script>
 
