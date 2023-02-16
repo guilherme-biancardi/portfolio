@@ -1,0 +1,45 @@
+{
+  "devInformation": {
+    "office": "desenvolvedor front-end"
+  },
+  "fileTabs": {
+    "aboutMe": ["sobreMim", "formacoes"],
+    "skills": ["desenvolvimentoWeb", "vue"]
+  },
+  "views": {
+    "aboutMe": {
+      "informations": {
+        "title": "informacoes",
+        "age": "idade",
+        "localization": "localizacao_atual",
+        "email": "email",
+        "phone": "celular",
+        "links": "links"
+      }, 
+      "myStory": {
+        "title": "minha_historia",
+        "text": "Nascido em Vinhedo/SP, residente em São Paulo, nunca fui muito interessado em tecnologia e meus objetivos não estavam ligados a área de TI até o ensino médio. \n\tIngressei no meu curso técnico e na primeira semana senti que havia encontrado o que atualmente considero minha vocação e desde então tenho me dedicado a esse sonho de carreira, buscando sempre aprimorar e demonstrar meus conhecimentos"
+      }
+    },
+    "formations": {
+      "labels": {
+        "title": "formacao_academica",
+        "technicalCourse": "curso_tecnico",
+        "universityEducation": "ensino_superior",
+        "name": "nome",
+        "course": "curso",
+        "status": "status",
+        "startAt": "inicio",
+        "endAt": "fim"
+      },
+      "etec": {
+        "course": "Informática para Internet integrado ao Ensino Médio",
+        "status": "concluído"
+      }, 
+      "university": {
+        "course": "Bacharelado em Ciência da Computação",
+        "status": "em andamento"
+      }
+    }
+  }
+}

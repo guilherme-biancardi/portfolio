@@ -1,0 +1,45 @@
+{
+  "devInformation": {
+    "office": "front-end developer"
+  },
+  "fileTabs": {
+    "aboutMe": ["aboutMe", "formations"],
+    "skills": ["webDevelopment", "vue"]
+  },
+  "views": {
+    "aboutMe": {
+      "informations": {
+        "title": "informations",
+        "age": "age",
+        "localization": "current_localization",
+        "email": "email",
+        "phone": "phone",
+        "links": "links"
+      },
+      "myStory": {
+        "title": "my_story",
+        "text": "Born in Vinhedo/SP, resident in São Paulo, I was never very interested in technology and my goals were not linked to IT until high school. \n\tI joined my technical course and the first week I felt that I had found what I currently consider my vocation and since then I have dedicated myself to this career dream, always seeking to improve and demonstrate my knowledge"
+      }
+    }, 
+    "formations": {
+      "labels": {
+        "title": "academic_education",
+        "technicalCourse": "technical_course",
+        "universityEducation": "university_education",
+        "name": "name",
+        "course": "course",
+        "status": "status",
+        "startAt": "start_at",
+        "endAt": "end_at"
+      },
+      "etec": {
+        "course": "Computing for the Internet integrated into High School",
+        "status": "completed"
+      }, 
+      "university": {
+        "course": "Bachelor of Computer Science",
+        "status": "in progress"
+      }
+    }
+  }
+}
