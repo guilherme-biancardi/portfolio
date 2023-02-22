@@ -2,6 +2,12 @@ import { createRoute } from "./createRoute";
 import { aboutMe } from "./aboutMeRoute";
 import { skills } from "./SkillsRoute";
 
+const welcome = createRoute(
+  "/welcome",
+  import("../../views/WelcomeView.vue"),
+  "app"
+);
+
 const projects = createRoute(
   "/projects",
   import("../../views/ProjectsView.vue"),
@@ -11,9 +17,10 @@ const projects = createRoute(
 export const useRoutes = () => [
   {
     path: "/",
-    redirect: "/about-me",
+    redirect: "/welcome",
   },
+  welcome,
   aboutMe,
   skills,
-  projects
+  projects,
 ];

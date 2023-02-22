@@ -41,9 +41,8 @@ const state = reactive({
 
 .dev-text h2{
     color: var(--syntax-guide);
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 600;
-    /* text-transform: capitalize; */
 }
 
 .dev-text p{
@@ -51,8 +50,8 @@ const state = reactive({
 }
 
 img{
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     image-rendering: optimizeQuality;
 }

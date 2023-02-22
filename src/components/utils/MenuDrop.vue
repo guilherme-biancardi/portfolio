@@ -3,7 +3,7 @@
     <ul class="menu-drop-list">
       <li v-for="(item, index) in items" :key="index" class="menu-item-drop">
         <h2>{{ item }}</h2>
-        <ChangeLanguage></ChangeLanguage>
+        <ChangeLanguage ></ChangeLanguage>
       </li>
     </ul>
   </div>
@@ -16,7 +16,6 @@ import ChangeLanguage from "../menuDrop/ChangeLanguage.vue";
 
 const { getLanguageFile } = useAppStore();
 const items = computed(() => getLanguageFile.menuDrop.items);
-
 </script>
 
 <style scoped>

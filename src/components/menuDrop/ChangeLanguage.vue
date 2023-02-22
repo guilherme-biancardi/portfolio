@@ -35,9 +35,9 @@ const state = reactive({
 });
 
 const changeLanguage = () => {
-    setLanguage(state.value)
-    window.location.reload()
-}
+  setLanguage(state.value);
+  window.location.reload()
+};
 
 onMounted(() => {
   acceptedLanguages.forEach((language, index) => {

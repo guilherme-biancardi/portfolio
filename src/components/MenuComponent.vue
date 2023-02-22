@@ -68,7 +68,7 @@ onMounted(() => {
 nav {
   position: relative;
   padding: 16px 12px;
-  padding-top: 72px;
+  padding-top: 76px;
   display: flex;
   align-items: center;
   flex-direction: column;

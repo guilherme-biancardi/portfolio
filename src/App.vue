@@ -1,15 +1,15 @@
 <template>
-    <main v-if="appStore.getLoaded">
-      <DevInformation></DevInformation>
-      <MenuComponent></MenuComponent>
-      <section>
-        <RouterView v-slot="{ Component }" name="app">
-          <Transition name="content" mode="out-in">
-            <component :is="Component" />
-          </Transition>
-        </RouterView>
-      </section>
-    </main>
+  <main v-if="appStore.getLoaded">
+    <DevInformation></DevInformation>
+    <MenuComponent></MenuComponent>
+    <section>
+      <RouterView v-slot="{ Component }" name="app">
+        <Transition name="content" mode="out-in">
+          <component :is="Component" />
+        </Transition>
+      </RouterView>
+    </section>
+  </main>
 </template>
 
 <script setup>
@@ -31,7 +31,7 @@ onBeforeMount(async () => {
 <style>
 @font-face {
   font-family: "cascadia";
-  src: url("./assets/fonts/CascadiaCode.ttf");
+  src: url("./assets/fonts/CascadiaCodePL.woff2");
 }
 
 * {
@@ -72,7 +72,7 @@ section {
   height: 100%;
   padding: 20px;
   padding-right: 40px;
-  padding-top: 66px;
+  padding-top: 68px;
 }
 
 a {

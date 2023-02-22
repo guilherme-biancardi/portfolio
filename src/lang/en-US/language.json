@@ -8,6 +8,10 @@
     "skills": ["webDevelopment", "vue"]
   },
   "views": {
+    "welcome": {
+      "title": "Welcome!",
+      "subtitle": "New here? Start with:"
+    },
     "aboutMe": {
       "informations": {
         "title": "informations",

@@ -18,13 +18,7 @@ export const useAppStore = defineStore(
 
     const setLanguageFile = (file) => (state.languageFile = file);
     const setLanguage = (language) => (state.language = language);
-
-    watch(getLanguage, (lang) =>
-      useLanguage(lang).then((file) => {
-        const language = file.default;
-        setLanguageFile(language);
-      })
-    );
+    const setLoaded = (value) => (state.loaded = value);
 
     watch(getLanguageFile, () => {
       state.loaded = true;
@@ -38,14 +32,15 @@ export const useAppStore = defineStore(
       getLoaded,
       setLanguageFile,
       setLanguage,
+      setLoaded,
     };
   },
   {
     persist: [
       {
         storage: localStorage,
-        paths: ['state.language']
-      }
-    ]
+        paths: ["state.language"],
+      },
+    ],
   }
 );
