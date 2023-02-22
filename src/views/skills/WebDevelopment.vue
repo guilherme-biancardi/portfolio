@@ -1,13 +1,11 @@
 <template>
   <CodeComponent>
-    <pre>
-<template v-for="(item, index) in state.contents" :key="index">&lt;<CodeText color="rose">{{item.tag}}</CodeText>&gt;
+    <pre><template v-for="(item, index) in state.contents" :key="index">&lt;<CodeText color="rose">{{item.tag}}</CodeText>&gt;
     &lt;<CodeText color="rose">h1</CodeText>&gt;{{ lang.title }}: {{ item.experience }} {{lang.experienceYears}}&lt;<CodeText color="rose">/h1</CodeText>&gt;
     &lt;<CodeText color="rose">p</CodeText>&gt;{{ lang.subtitle }}: {{lang.concepts[item.tag]}}&lt;<CodeText color="rose">/p</CodeText>&gt;
 &lt;<CodeText color="rose">/{{item.tag}}</CodeText>&gt;
 
-</template>
-    </pre>
+</template></pre>
   </CodeComponent>
 </template>
 

@@ -8,26 +8,37 @@
       >
         <RouterLink :to="item.route">
           <IconComponent
-            :size="item.size || 32"
+            :size="item.size || 30"
             :path="item.icon"
           ></IconComponent>
         </RouterLink>
         <span class="menu-tooltip">{{ item.label }}</span>
       </li>
     </ul>
+    <button
+      class="button-settings"
+      @click="state.settingsVisibility = !state.settingsVisibility"
+    >
+      <IconComponent :path="mdiCog" :size="30"></IconComponent>
+    </button>
+    <Transition name="content">
+      <MenuDrop v-if="state.settingsVisibility"></MenuDrop>
+    </Transition>
   </nav>
 </template>
 
 <script setup>
 import IconComponent from "./utils/IconComponent.vue";
-import { mdiAccount, mdiFileCertificate, mdiTools } from "@mdi/js";
+import { mdiAccount, mdiCog, mdiFileCertificate, mdiTools } from "@mdi/js";
 import { reactive, computed, onMounted } from "vue";
 import { useAppStore } from "../stores/appStore";
+import MenuDrop from "./utils/MenuDrop.vue";
 
 const { getLanguageFile } = useAppStore();
 const lang = computed(() => getLanguageFile.menu);
 
 const state = reactive({
+  settingsVisibility: false,
   menuItems: [
     {
       route: "/about-me",
@@ -43,7 +54,7 @@ const state = reactive({
       route: "/projects",
       icon: mdiTools,
       label: "",
-      size: 28,
+      size: 26,
     },
   ],
 });
@@ -55,8 +66,13 @@ onMounted(() => {
 
 <style scoped>
 nav {
+  position: relative;
   padding: 16px 12px;
   padding-top: 72px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu-list {
@@ -74,11 +90,17 @@ nav {
   position: relative;
 }
 
-.menu-item a {
+.button-settings * {
+  color: var(--default-text);
+}
+
+.menu-item a,
+.button-settings * {
   transition: all 0.2s ease;
 }
 
-.menu-item:hover a {
+.menu-item:hover a,
+.button-settings:hover * {
   color: var(--syntax-guide);
 }
 

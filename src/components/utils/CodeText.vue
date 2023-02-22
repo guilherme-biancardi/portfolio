@@ -1,6 +1,6 @@
 <template>
   <component :style="{ color: $style[color] }" :is="tag">
-    <slot></slot>
+      <slot></slot>
   </component>
 </template>
 

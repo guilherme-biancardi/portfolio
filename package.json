@@ -13,6 +13,8 @@
     "@mdi/js": "^7.1.96",
     "luxon": "^3.2.1",
     "pinia": "^2.0.28",
+    "pinia-plugin-persist": "^1.0.0",
+    "pinia-plugin-persistedstate": "^3.1.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },

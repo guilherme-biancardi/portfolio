@@ -3,17 +3,17 @@
     <pre>
 <CodeText color="purple">const</CodeText> <CodeText color="yellow">{{ lang.informations.title }}</CodeText> <CodeText color="cyan">=</CodeText> {
     <CodeText color="rose">{{ lang.informations.age }}</CodeText>: <CodeText color="orange">{{ age }}</CodeText>,
-    <CodeText color="rose">{{ lang.informations.localization }}</CodeText>: <CodeText color="green">{{ state.locality }}</CodeText>,
-    <CodeText color="rose">{{ lang.informations.email }}</CodeText>: <CodeText color="green">{{ state.email }}</CodeText>,
-    <CodeText color="rose">{{ lang.informations.phone }}</CodeText>: <CodeText color="green">{{ state.phone }}</CodeText>,
+    <CodeText color="rose">{{ lang.informations.localization }}</CodeText>: <CodeText color="green">"{{ state.locality }}"</CodeText>,
+    <CodeText color="rose">{{ lang.informations.email }}</CodeText>: <CodeText color="green">"{{ state.email }}"</CodeText>,
+    <CodeText color="rose">{{ lang.informations.phone }}</CodeText>: <CodeText color="green">"{{ state.phone }}"</CodeText>,
     <CodeText color="rose">{{ lang.informations.links }}</CodeText>: <CodeText color="cyan">{</CodeText>
-      <CodeText color="rose">linkedin</CodeText>: <CodeText color="green" tag="a" :href="state.links.linkedin" target="_blank">{{ state.links.linkedin }}</CodeText>,
-      <CodeText color="rose">github</CodeText>: <CodeText color="green" tag="a" :href="state.links.github" target="_blank">{{ state.links.github }}</CodeText>,
+      <CodeText color="rose">linkedin</CodeText>: "<CodeText color="green" tag="a" :href="state.links.linkedin" target="_blank">"{{ state.links.linkedin }}"</CodeText>,
+      <CodeText color="rose">github</CodeText>: <CodeText color="green" tag="a" :href="state.links.github" target="_blank">"{{ state.links.github }}"</CodeText>,
     <CodeText color="cyan">}</CodeText>
 }
 
-<CodeText color="purple">const</CodeText> <CodeText color="yellow">{{ lang.myStory.title }}</CodeText> <CodeText color="cyan">=</CodeText> <CodeText color="green">{{ lang.myStory.text }}</CodeText>
-    </pre>
+<CodeText color="purple">const</CodeText> <CodeText color="yellow">{{ lang.myStory.title }}</CodeText> <CodeText color="cyan">=</CodeText> <CodeText color="green">"{{ lang.myStory.text }}"</CodeText>
+</pre>
   </CodeComponent>
 </template>
 

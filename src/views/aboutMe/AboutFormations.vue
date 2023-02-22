@@ -3,21 +3,21 @@
     <pre>
 <CodeText color="purple">const</CodeText> <CodeText color="cyan">{{lang.labels.title}}</CodeText> <CodeText color="cyan">=</CodeText> <CodeText color="yellow">()</CodeText> <CodeText color="purple">=></CodeText> <CodeText color="yellow">(</CodeText>{
     <CodeText color="rose">{{lang.labels.technicalCourse}}</CodeText>: <CodeText color="cyan">{</CodeText>
-          <CodeText color="rose">{{lang.labels.name}}</CodeText>: <CodeText color="green">"{{ state.etec.name }}"</CodeText>,
+          <CodeText color="rose">{{lang.labels.institution}}</CodeText>: <CodeText color="green">"{{ state.etec.name }}"</CodeText>,
           <CodeText color="rose">{{lang.labels.course}}</CodeText>: <CodeText color="green">"{{ lang.etec.course }}"</CodeText>,
           <CodeText color="rose">{{lang.labels.status}}</CodeText>: <CodeText color="green">"{{ lang.etec.status }}"</CodeText>,
           <CodeText color="rose">{{lang.labels.startAt}}</CodeText>: <CodeText color="green">"{{ state.etec.startAt }}"</CodeText>,
           <CodeText color="rose">{{lang.labels.endAt}}</CodeText>: <CodeText color="green">"{{ state.etec.endAt }}"</CodeText>,
     <CodeText color="cyan">}</CodeText>,
     <CodeText color="rose">{{lang.labels.universityEducation}}</CodeText>: <CodeText color="cyan">{</CodeText>
-          <CodeText color="rose">{{lang.labels.name}}</CodeText>: <CodeText color="green">"{{ state.university.name }}"</CodeText>,
+          <CodeText color="rose">{{lang.labels.institution}}</CodeText>: <CodeText color="green">"{{ state.university.name }}"</CodeText>,
           <CodeText color="rose">{{lang.labels.course}}</CodeText>: <CodeText color="green">"{{ lang.university.course }}"</CodeText>,
           <CodeText color="rose">{{lang.labels.status}}</CodeText>: <CodeText color="green">"{{ lang.university.status }}"</CodeText>,
           <CodeText color="rose">{{lang.labels.startAt}}</CodeText>: <CodeText color="green">"{{ state.university.startAt }}"</CodeText>,
           <CodeText color="rose">{{lang.labels.endAt}}</CodeText>: <CodeText color="green">"{{ state.university.endAt }}"</CodeText>
     <CodeText color="cyan">}</CodeText>
 }<CodeText color="yellow">)</CodeText>
-      </pre>
+</pre>
   </CodeComponent>
 </template>
 

@@ -19,7 +19,7 @@
       },
       "myStory": {
         "title": "my_story",
-        "text": "Born in Vinhedo/SP, resident in São Paulo, I was never very interested in technology and my goals were not linked to IT until high school. \n\tI joined my technical course and the first week I felt that I had found what I currently consider my vocation and since then I have dedicated myself to this career dream, always seeking to improve and demonstrate my knowledge"
+        "text": "Born in Vinhedo/SP, resident in São Paulo, I was never very interested in technology and my goals were not linked to IT until high school. \n\tI joined my technical course and the first week I felt that I had found what I currently consider my vocation and since then I have dedicated myself to this career dream, always seeking to improve and demonstrate my knowledge."
       }
     },
     "formations": {
@@ -27,7 +27,7 @@
         "title": "academic_education",
         "technicalCourse": "technical_course",
         "universityEducation": "university_education",
-        "name": "name",
+        "institution": "institution",
         "course": "course",
         "status": "status",
         "startAt": "start_at",
@@ -51,6 +51,14 @@
         "css": "Responsive design, flexbox, grid",
         "javascript": "arrays, objects, promises, vue.js"
       }
+    }
+  },
+  "menuDrop": {
+    "items": ["set language"],
+    "changeLanguage": {
+      "languages": ["portuguese", "english"],
+      "label": "Select Language",
+      "button": "save"
     }
   }
 }

@@ -83,11 +83,13 @@ a,
 button,
 input {
   color: var(--default-text);
+  background-color: transparent;
 }
 
 button {
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 ul {
