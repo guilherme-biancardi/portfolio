@@ -1,5 +1,5 @@
 {
-  "menu": ["sobre mim", "competências", "projetos"],
+  "menu": ["sobre mim", "competências", "projetos", "configurações"],
   "devInformation": {
     "office": "desenvolvedor front-end"
   },

@@ -1,5 +1,5 @@
 <template>
-  <button>
+  <button :aria-label="name">
     <p>{{ text }}</p>
     <IconComponent :path="icon" :size="22"></IconComponent>
   </button>
@@ -10,7 +10,8 @@ import IconComponent from "./IconComponent.vue";
 
 defineProps({
   text: String,
-  icon: String
+  icon: String,
+  name: String
 });
 </script>
 

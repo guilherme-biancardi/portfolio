@@ -32,6 +32,7 @@ onBeforeMount(async () => {
 @font-face {
   font-family: "cascadia";
   src: url("./assets/fonts/CascadiaCodePL.woff2");
+  font-display: swap;
 }
 
 * {

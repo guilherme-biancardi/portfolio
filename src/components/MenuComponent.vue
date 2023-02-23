@@ -6,7 +6,7 @@
         :key="index"
         class="menu-item"
       >
-        <RouterLink :to="item.route">
+        <RouterLink :to="item.route" :aria-label="item.label">
           <IconComponent
             :size="item.size || 30"
             :path="item.icon"
@@ -18,6 +18,7 @@
     <button
       class="button-settings"
       @click="state.settingsVisibility = !state.settingsVisibility"
+      :aria-label="lang.at(-1)"
     >
       <IconComponent :path="mdiCog" :size="30"></IconComponent>
     </button>
